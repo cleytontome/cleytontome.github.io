@@ -172,15 +172,7 @@ p { margin: 0 0 1em; }
 .hero__role {
   font-size: clamp(1.05rem, 2.2vw, 1.35rem);
   color: var(--ink-soft);
-  margin-bottom: 10px;
-}
-
-.hero__positioning {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  letter-spacing: 0.01em;
-  color: var(--accent);
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .hero__tagline {
@@ -468,7 +460,7 @@ p { margin: 0 0 1em; }
   margin-bottom: 12px;
 }
 .card__list { display: flex; flex-direction: column; gap: 6px; color: var(--ink-soft); }
-.card__list li::before { content: "— "; color: var(--accent); }
+.card__list li::before { content: "· "; color: var(--accent); }
 
 .subtitle {
   font-family: var(--font-display);

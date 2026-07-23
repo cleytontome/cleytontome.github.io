@@ -1,6 +1,6 @@
 # cleytontome.github.io
 
-Currículo interativo de **Cleyton Tomé da Silva** — Analista de Sistemas e
+Currículo interativo de **Cleyton Tomé da Silva**, Analista de Sistemas e
 Desenvolvedor .NET com mais de 12 anos de experiência em transportes e logística.
 
 🔗 Publicado em: https://cleytontome.github.io
@@ -9,17 +9,18 @@ Desenvolvedor .NET com mais de 12 anos de experiência em transportes e logísti
 
 - HTML5 + CSS3 (sem frameworks, sem build step)
 - JavaScript vanilla (tema claro/escuro, animações de scroll)
-- Fontes: [Fraunces](https://fonts.google.com/specimen/Fraunces),
-  [Inter](https://fonts.google.com/specimen/Inter),
-  [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono)
+- Fontes: [IBM Plex Serif, Sans e Mono](https://fonts.google.com/specimen/IBM+Plex+Sans)
 
 ## Estrutura
 
 ```
-index.html
+index.html          página principal
+curriculo.html       versão A4, pronta para impressão/PDF
 assets/
-  css/style.css
+  css/style.css      estilos da página principal
+  css/print.css       estilos da página A4
   js/main.js
+  img/cleyton.jpg
 ```
 
 ## Rodar localmente
