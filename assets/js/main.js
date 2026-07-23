@@ -32,9 +32,4 @@
 
   // ---- Footer year ----
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // ---- PDF export (browser print → "Salvar como PDF") ----
-  const printHandler = () => window.print();
-  document.getElementById("downloadPdf")?.addEventListener("click", printHandler);
-  document.getElementById("downloadPdfFooter")?.addEventListener("click", printHandler);
 })();
